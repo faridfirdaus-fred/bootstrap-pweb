@@ -1,0 +1,148 @@
+/* Custom styles to enhance Bootstrap */
+
+/* Hover effect for cards */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Hover effect for navigation links */
+.hover-shadow:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Article content styling */
+.article-content h2 {
+  color: #333;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.article-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 1.5rem;
+}
+
+.article-content blockquote {
+  border-left: 4px solid #0d6efd;
+}
+
+/* Custom badge styling */
+.badge {
+  padding: 0.5em 1em;
+  font-weight: 500;
+}
+
+/* Custom button hover effect */
+.btn {
+  transition: all 0.3s ease;
+}
+
+/* Object fit for featured images */
+.object-cover {
+  object-fit: cover;
+}
+
+/* Reply form styling */
+.reply-form {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  display: none;
+}
+
+/* Responsive font sizes */
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 2.5rem;
+  }
+
+  .display-5 {
+    font-size: 2rem;
+  }
+
+  .article-content p {
+    font-size: 1rem;
+  }
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.dark-mode .navbar,
+.dark-mode .card {
+  background-color: #1e1e1e !important;
+  color: #e0e0e0;
+}
+
+.dark-mode .card-body {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+.dark-mode .text-muted {
+  color: #adb5bd !important;
+}
+
+.dark-mode .bg-light {
+  background-color: #2d2d2d !important;
+  color: #e0e0e0;
+}
+
+.dark-mode .list-group-item {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  border-color: #333;
+}
+
+.dark-mode .form-control {
+  background-color: #2d2d2d;
+  border-color: #444;
+  color: #e0e0e0;
+}
+
+.dark-mode .form-control::placeholder {
+  color: #adb5bd;
+}
+
+.dark-mode .navbar-light .navbar-brand,
+.dark-mode .navbar-light .navbar-nav .nav-link {
+  color: #e0e0e0;
+}
+
+.dark-mode .dropdown-menu {
+  background-color: #1e1e1e;
+  border-color: #333;
+}
+
+.dark-mode .dropdown-item {
+  color: #e0e0e0;
+}
+
+.dark-mode .dropdown-item:hover {
+  background-color: #2d2d2d;
+}
+
+.dark-mode .breadcrumb-item.active {
+  color: #adb5bd;
+}
+
+.dark-mode .breadcrumb-item a {
+  color: #6ea8fe;
+}
+
+.dark-mode .blockquote {
+  background-color: #2d2d2d !important;
+}
+
+.dark-mode .blockquote-footer {
+  color: #adb5bd;
+}

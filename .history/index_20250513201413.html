@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Modern</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top"
+    >
+      <div class="container">
+        <a href="index.html" class="navbar-brand fw-bold">
+          <img
+            src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=200&h=50&fit=crop&auto=format"
+            alt="Blog Modern"
+            height="40"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link active">Beranda</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                Kategori
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#" class="dropdown-item">Teknologi</a></li>
+                <li><a href="#" class="dropdown-item">Bisnis</a></li>
+                <li><a href="#" class="dropdown-item">Kesehatan</a></li>
+                <li><a href="#" class="dropdown-item">Gaya Hidup</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Kontak</a>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center">
+            <button
+              class="btn btn-outline-primary me-2"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#searchModal"
+            >
+              <i class="bi bi-search"></i>
+            </button>
+            <button
+              class="btn btn-outline-secondary me-2 dark-mode-toggle"
+              type="button"
+            >
+              <i class="bi bi-moon"></i>
+            </button>
+            <button
+              class="btn btn-primary"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#subscribeModal"
+            >
+              Daftar
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container py-5">
+      <header class="text-center mb-5">
+        <h1 class="display-4 fw-bold">Blog Modern</h1>
+        <p class="lead text-muted">
+          Temukan artikel terbaru dan menarik di sini
+        </p>
+      </header>
+
+      <div class="row">
+        <!-- Main Content - 2 Column Layout -->
+        <div class="col-lg-8">
+          <!-- Featured Post -->
+          <div class="card shadow-sm mb-4">
+            <div class="row g-0">
+              <div class="col-md-5">
+                <img
+                  src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop&auto=format"
+                  class="img-fluid rounded-start h-100 object-cover"
+                  alt="Featured post"
+                />
+              </div>
+              <div class="col-md-7">
+                <div class="card-body d-flex flex-column h-100">
+                  <span class="badge bg-primary mb-2">Teknologi</span>
+                  <h2 class="card-title h4">
+                    Perkembangan Teknologi AI di Tahun 2025
+                  </h2>
+                  <p class="card-text">
+                    Artificial Intelligence terus berkembang pesat dan membawa
+                    perubahan signifikan dalam berbagai industri. Mari kita
+                    bahas tren terbaru...
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-auto"
+                  >
+                    <div class="d-flex align-items-center">
+                      <img
+                        src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&auto=format"
+                        class="rounded-circle me-2"
+                        alt="Author"
+                      />
+                      <small class="text-muted">Budi Santoso</small>
+                    </div>
+                    <small class="text-muted">5 Mei 2025</small>
+                  </div>
+                  <a href="article.html" class="btn btn-outline-primary mt-3">
+                    Baca Selengkapnya <i class="bi bi-arrow-right ms-1"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Article Grid -->
+          <div class="row row-cols-1 row-cols-md-2 g-4 mb-4">
+            <!-- Article Card 1 -->
+            <div class="col">
+              <div class="card h-100 shadow-sm">
+                <img
+                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop&auto=format"
+                  class="card-img-top"
+                  alt="Artikel 1"
+                />
+                <div class="card-body">
+                  <span class="badge bg-secondary mb-2">Kategori</span>
+                  <h5 class="card-title">Judul Artikel 1</h5>
+                  <p class="card-text">
+                    Ini adalah deskripsi singkat untuk artikel 1. Klik untuk
+                    membaca lebih lanjut.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-3"
+                  >
+                    <small class="text-muted">2 Mei 2025</small>
+                    <a href="article.html" class="text-decoration-none">
+                      Baca <i class="bi bi-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Article Card 2 -->
+            <div class="col">
+              <div class="card h-100 shadow-sm">
+                <img
+                  src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=400&fit=crop&auto=format"
+                  class="card-img-top"
+                  alt="Artikel 2"
+                />
+                <div class="card-body">
+                  <span class="badge bg-secondary mb-2">Kategori</span>
+                  <h5 class="card-title">Judul Artikel 2</h5>
+                  <p class="card-text">
+                    Ini adalah deskripsi singkat untuk artikel 2. Klik untuk
+                    membaca lebih lanjut.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-3"
+                  >
+                    <small class="text-muted">2 Mei 2025</small>
+                    <a href="article.html" class="text-decoration-none">
+                      Baca <i class="bi bi-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Article Card 3 -->
+            <div class="col">
+              <div class="card h-100 shadow-sm">
+                <img
+                  src="https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=600&h=400&fit=crop&auto=format"
+                  class="card-img-top"
+                  alt="Artikel 3"
+                />
+                <div class="card-body">
+                  <span class="badge bg-secondary mb-2">Kategori</span>
+                  <h5 class="card-title">Judul Artikel 3</h5>
+                  <p class="card-text">
+                    Ini adalah deskripsi singkat untuk artikel 3. Klik untuk
+                    membaca lebih lanjut.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-3"
+                  >
+                    <small class="text-muted">2 Mei 2025</small>
+                    <a href="article.html" class="text-decoration-none">
+                      Baca <i class="bi bi-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Article Card 4 -->
+            <div class="col">
+              <div class="card h-100 shadow-sm">
+                <img
+                  src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=600&h=400&fit=crop&auto=format"
+                  class="card-img-top"
+                  alt="Artikel 4"
+                />
+                <div class="card-body">
+                  <span class="badge bg-secondary mb-2">Kategori</span>
+                  <h5 class="card-title">Judul Artikel 4</h5>
+                  <p class="card-text">
+                    Ini adalah deskripsi singkat untuk artikel 4. Klik untuk
+                    membaca lebih lanjut.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-3"
+                  >
+                    <small class="text-muted">2 Mei 2025</small>
+                    <a href="article.html" class="text-decoration-none">
+                      Baca <i class="bi bi-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pagination -->
+          <nav aria-label="Page navigation" class="mt-5">
+            <ul class="pagination justify-content-center">
+              <li class="page-item disabled">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item active">
+                <a class="page-link" href="#">1</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#">2</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#">3</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="col-lg-4">
+          <!-- Search Widget -->
+          <div class="card shadow-sm mb-4">
+            <div class="card-body">
+              <h5 class="card-title border-bottom pb-2">Cari Artikel</h5>
+              <div class="input-group mt-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Kata kunci..."
+                  id="searchInput"
+                />
+                <button class="btn btn-primary" type="button" id="searchButton">
+                  Cari
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Categories Widget -->
+          <div class="card shadow-sm mb-4">
+            <div class="card-body">
+              <h5 class="card-title border-bottom pb-2">Kategori</h5>
+              <div class="list-group list-group-flush mt-2">
+                <a
+                  href="#"
+                  class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                >
+                  Teknologi
+                  <span class="badge bg-primary rounded-pill">14</span>
+                </a>
+                <a
+                  href="#"
+                  class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                >
+                  Bisnis
+                  <span class="badge bg-primary rounded-pill">8</span>
+                </a>
+                <a
+                  href="#"
+                  class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                >
+                  Kesehatan
+                  <span class="badge bg-primary rounded-pill">5</span>
+                </a>
+                <a
+                  href="#"
+                  class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                >
+                  Gaya Hidup
+                  <span class="badge bg-primary rounded-pill">12</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Popular Posts Widget -->
+          <div class="card shadow-sm mb-4">
+            <div class="card-body">
+              <h5 class="card-title border-bottom pb-2">Artikel Populer</h5>
+              <div class="mt-3">
+                <!-- Popular Post 1 -->
+                <div class="d-flex mb-3">
+                  <img
+                    src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=80&h=80&fit=crop&auto=format"
+                    class="rounded me-3"
+                    alt="Popular 1"
+                  />
+                  <div>
+                    <h6 class="mb-1">Artikel Populer 1</h6>
+                    <small class="text-muted d-block mb-1">1 Mei 2025</small>
+                    <a href="article.html" class="text-decoration-none">
+                      Baca
+                    </a>
+                  </div>
+                </div>
+
+                <!-- Popular Post 2 -->
+                <div class="d-flex mb-3">
+                  <img
+                    src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=80&h=80&fit=crop&auto=format"
+                    class="rounded me-3"
+                    alt="Popular 2"
+                  />
+                  <div>
+                    <h6 class="mb-1">Artikel Populer 2</h6>
+                    <small class="text-muted d-block mb-1">1 Mei 2025</small>
+                    <a href="article.html" class="text-decoration-none">
+                      Baca
+                    </a>
+                  </div>
+                </div>
+
+                <!-- Popular Post 3 -->
+                <div class="d-flex mb-3">
+                  <img
+                    src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=80&h=80&fit=crop&auto=format"
+                    class="rounded me-3"
+                    alt="Popular 3"
+                  />
+                  <div>
+                    <h6 class="mb-1">Artikel Populer 3</h6>
+                    <small class="text-muted d-block mb-1">1 Mei 2025</small>
+                    <a href="article.html" class="text-decoration-none">
+                      Baca
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Subscribe Widget -->
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title border-bottom pb-2">Berlangganan</h5>
+              <p class="card-text mt-3">
+                Dapatkan update artikel terbaru langsung ke email Anda.
+              </p>
+              <form id="subscribeForm">
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email Anda"
+                    id="subscribeEmail"
+                    required
+                  />
+                </div>
+                <button type="submit" class="btn btn-primary w-100">
+                  Berlangganan
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Search Modal -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Cari Artikel</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Masukkan kata kunci..."
+              />
+              <button class="btn btn-primary" type="button">
+                <i class="bi bi-search"></i> Cari
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Subscribe Modal -->
+    <div class="modal fade" id="subscribeModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Berlangganan Newsletter</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form id="modalSubscribeForm">
+              <div class="mb-3">
+                <label for="modalEmail" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="modalEmail"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="modalName" class="form-label">Nama</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="modalName"
+                  required
+                />
+              </div>
+              <button type="submit" class="btn btn-primary w-100">
+                Berlangganan
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <h5 class="fw-bold mb-3">Bloggy dotcom</h5>
+            <p>
+              Blog modern dengan artikel terbaru dan menarik untuk menambah
+              wawasan dan pengetahuan Anda.
+            </p>
+            <div class="d-flex gap-2 mt-3">
+              <a href="#" class="btn btn-outline-light btn-sm rounded-circle">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a href="#" class="btn btn-outline-light btn-sm rounded-circle">
+                <i class="bi bi-twitter"></i>
+              </a>
+              <a href="#" class="btn btn-outline-light btn-sm rounded-circle">
+                <i class="bi bi-instagram"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="fw-bold mb-3">Kategori</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#" class="text-white text-decoration-none"
+                  >Teknologi</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-white text-decoration-none">Bisnis</a>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-white text-decoration-none"
+                  >Kesehatan</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-white text-decoration-none"
+                  >Gaya Hidup</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="fw-bold mb-3">Tautan</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="index.html" class="text-white text-decoration-none"
+                  >Beranda</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-white text-decoration-none"
+                  >Tentang Kami</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-white text-decoration-none">Kontak</a>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-white text-decoration-none"
+                  >Kebijakan Privasi</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h5 class="fw-bold mb-3">Berlangganan Newsletter</h5>
+            <p>Dapatkan update artikel terbaru langsung ke email Anda.</p>
+            <form class="mt-3" id="footerNewsletterForm">
+              <div class="input-group mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Email Anda"
+                  id="footerNewsletterEmail"
+                  required
+                />
+                <button class="btn btn-primary" type="submit">Daftar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <hr class="my-4" />
+        <div class="text-center">
+          <p class="mb-0">&copy; 2025 Blog Modern. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
