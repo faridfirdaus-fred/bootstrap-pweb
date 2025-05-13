@@ -1,0 +1,175 @@
+{
+  "site": {
+    "name": "Bloggy Dotcom",
+    "description": "Bloggy Dotcom dengan artikel terbaru dan menarik untuk menambah wawasan dan pengetahuan Anda.",
+    "logo": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=200&h=50&fit=crop&auto=format",
+    "social": {
+      "facebook": "#",
+      "twitter": "#",
+      "instagram": "#",
+      "linkedin": "#"
+    }
+  },
+  "categories": [
+    {
+      "id": 1,
+      "name": "Teknologi",
+      "slug": "teknologi",
+      "description": "Artikel tentang perkembangan teknologi terbaru",
+      "postCount": 14
+    },
+    {
+      "id": 2,
+      "name": "Bisnis",
+      "slug": "bisnis",
+      "description": "Artikel tentang dunia bisnis dan ekonomi",
+      "postCount": 8
+    },
+    {
+      "id": 3,
+      "name": "Kesehatan",
+      "slug": "kesehatan",
+      "description": "Artikel tentang kesehatan dan gaya hidup sehat",
+      "postCount": 5
+    },
+    {
+      "id": 4,
+      "name": "Gaya Hidup",
+      "slug": "gaya-hidup",
+      "description": "Artikel tentang gaya hidup dan tren terkini",
+      "postCount": 12
+    }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "name": "Budi Santoso",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&auto=format",
+      "bio": "Tech enthusiast dan penulis dengan pengalaman lebih dari 10 tahun di bidang teknologi. Fokus pada perkembangan AI dan dampaknya terhadap masyarakat.",
+      "social": {
+        "twitter": "#",
+        "linkedin": "#"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Siti Nurhaliza",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&auto=format",
+      "bio": "Penulis konten kesehatan dan gaya hidup dengan latar belakang pendidikan kedokteran.",
+      "social": {
+        "twitter": "#",
+        "instagram": "#"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Perkembangan Teknologi AI di Tahun 2025",
+      "slug": "perkembangan-teknologi-ai-di-tahun-2025",
+      "excerpt": "Artificial Intelligence terus berkembang pesat dan membawa perubahan signifikan dalam berbagai industri. Mari kita bahas tren terbaru...",
+      "content": "Artificial Intelligence terus berkembang pesat dan membawa perubahan signifikan dalam berbagai industri. Mari kita bahas tren terbaru dan bagaimana AI mempengaruhi kehidupan kita di tahun 2025.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.",
+      "featuredImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=600&fit=crop&auto=format",
+      "category": {
+        "id": 1,
+        "name": "Teknologi",
+        "slug": "teknologi"
+      },
+      "author": {
+        "id": 1,
+        "name": "Budi Santoso",
+        "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&auto=format"
+      },
+      "publishedAt": "2025-05-05T08:00:00Z",
+      "readTime": "10 menit",
+      "tags": ["AI", "Teknologi", "Masa Depan"],
+      "relatedPosts": [2, 3, 4]
+    },
+    {
+      "id": 2,
+      "title": "Strategi Bisnis Digital di Era Modern",
+      "slug": "strategi-bisnis-digital-di-era-modern",
+      "excerpt": "Transformasi digital telah mengubah cara bisnis beroperasi. Pelajari strategi-strategi terbaru untuk sukses di era digital.",
+      "content": "Transformasi digital telah mengubah cara bisnis beroperasi. Pelajari strategi-strategi terbaru untuk sukses di era digital.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.",
+      "featuredImage": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=600&fit=crop&auto=format",
+      "category": {
+        "id": 2,
+        "name": "Bisnis",
+        "slug": "bisnis"
+      },
+      "author": {
+        "id": 2,
+        "name": "Siti Nurhaliza",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&auto=format"
+      },
+      "publishedAt": "2025-05-04T10:00:00Z",
+      "readTime": "8 menit",
+      "tags": ["Bisnis", "Digital", "Strategi"],
+      "relatedPosts": [1, 3, 4]
+    },
+    {
+      "id": 3,
+      "title": "Tips Menjaga Kesehatan Mental di Era Digital",
+      "slug": "tips-menjaga-kesehatan-mental-di-era-digital",
+      "excerpt": "Kesehatan mental menjadi semakin penting di era digital. Temukan tips-tips praktis untuk menjaga kesehatan mental Anda.",
+      "content": "Kesehatan mental menjadi semakin penting di era digital. Temukan tips-tips praktis untuk menjaga kesehatan mental Anda.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris.",
+      "featuredImage": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=600&fit=crop&auto=format",
+      "category": {
+        "id": 3,
+        "name": "Kesehatan",
+        "slug": "kesehatan"
+      },
+      "author": {
+        "id": 2,
+        "name": "Siti Nurhaliza",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&auto=format"
+      },
+      "publishedAt": "2025-05-03T14:00:00Z",
+      "readTime": "6 menit",
+      "tags": ["Kesehatan", "Mental", "Digital"],
+      "relatedPosts": [1, 2, 4]
+    },
+    {
+      "id": 4,
+      "title": "Tren Gaya Hidup Minimalis di 2025",
+      "slug": "tren-gaya-hidup-minimalis-di-2025",
+      "excerpt": "Gaya hidup minimalis semakin populer di kalangan generasi muda. Simak tren terbaru dan manfaatnya bagi kehidupan.",
+      "content": "Gaya hidup minimalis semakin populer di kalangan generasi muda. Simak tren terbaru dan manfaatnya bagi kehidupan.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "featuredImage": "https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=1200&h=600&fit=crop&auto=format",
+      "category": {
+        "id": 4,
+        "name": "Gaya Hidup",
+        "slug": "gaya-hidup"
+      },
+      "author": {
+        "id": 1,
+        "name": "Budi Santoso",
+        "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&auto=format"
+      },
+      "publishedAt": "2025-05-02T09:00:00Z",
+      "readTime": "7 menit",
+      "tags": ["Gaya Hidup", "Minimalis", "Tren"],
+      "relatedPosts": [1, 2, 3]
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "author": "Ahmad Rizal",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&auto=format",
+      "content": "Artikel yang sangat informatif! Saya jadi lebih memahami perkembangan AI terkini.",
+      "createdAt": "2025-05-06T14:30:00Z",
+      "replies": []
+    },
+    {
+      "id": 2,
+      "postId": 1,
+      "author": "Siti Nurhaliza",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=40&h=40&fit=crop&auto=format",
+      "content": "Saya setuju dengan poin-poin yang disampaikan. Namun, bagaimana dengan dampak AI terhadap lapangan pekerjaan?",
+      "createdAt": "2025-05-05T16:45:00Z",
+      "replies": []
+    }
+  ]
+}
